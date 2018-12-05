@@ -34,6 +34,9 @@ false
 gap> Unbind(s[2]);
 gap> IsBound(s[2]);
 false
+gap> Unbind(s[4]);
+gap> IsBound(s[4]);
+false
 gap> 6 in s;
 false
 gap> 1 in s;
